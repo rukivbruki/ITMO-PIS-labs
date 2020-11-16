@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <meta author="Nitvex"/>
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        {{name}}
+      </h1>
+      <form method="POST">
+        Hello <input type="text" name="name" value="{{name}}">
+        <input type="submit" value="submit">
+      </form>
+      <p class="subtitle">
+        You look like a:
+          <img src="/monster/{{name_hash}}"/>
+      </p>
+    </div>
+  </section>
+  </body>
+</html>
+
+<!-- header = '<html><head><script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script><meta author="Nitvex"/><title>Identidock</title></head><body>'
+  body = '''<form method="POST">
+            Hello <input type="text" name="name" value="{0}">
+            <input type="submit" value="submit">
+            </form>
+            <p>You look like a:
+            <img src="/monster/{1}"/>
+            '''.format(name, name_hash)
+  footer = '</body></html>' -->

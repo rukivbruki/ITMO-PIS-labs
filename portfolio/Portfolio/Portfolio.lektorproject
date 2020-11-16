@@ -1,0 +1,4 @@
+[project]
+name = Portfolio
+[servers.ghpages]
+target = ghpages+https://Nitvex/Nitvex.github.io
