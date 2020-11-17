@@ -35,7 +35,7 @@ influxdb:
     - "8083:8083"
     - "8086:8086"
   volumes: 
-    ./influxdb:/var/lib/influxdb
+    [./influxdb:/var/lib/influxdb]
   restart: always
 
 telegraf:
