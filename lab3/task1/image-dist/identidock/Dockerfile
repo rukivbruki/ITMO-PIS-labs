@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 9090 9191
 USER uwsgi
 
-CMD ["/cmd.sh"]
+CMD ["sh", "/cmd.sh"]
