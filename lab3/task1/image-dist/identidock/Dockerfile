@@ -6,9 +6,10 @@ RUN groupadd -r uwsgi && useradd -r -g uwsgi uwsgi
 
 WORKDIR /app
 COPY app /app
+COPY requirements.txt /
+COPY Dockerfile /
 COPY requirements.txt /app/requirements.txt
 COPY cmd.sh /
-COPY Dockerfile /
 COPY docker-compose.yml /
 
 RUN pip install --no-cache-dir -r requirements.txt
