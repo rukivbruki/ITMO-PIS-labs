@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 RUN npm install
-COPY * /
-COPY public /public
+COPY docker-compose.yml /
+COPY . .
 EXPOSE 3000
 CMD ["npm", "start"]
