@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48cf1304-3e88-423f-a406-555eb08b664d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lab3/task2/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task2/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +35,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605530160873</updated>
       <workItem from="1605530161922" duration="2155000" />
-      <workItem from="1605651545558" duration="2700000" />
+      <workItem from="1605651545558" duration="3335000" />
     </task>
     <task id="LOCAL-00001" summary="experiment">
       <created>1605653072277</created>
@@ -58,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605663392115</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="experiment">
+      <created>1605664716538</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605664716538</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,10 +80,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="350" y="206" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1605530244924" />
-    <state x="92" y="0" key="CommitChangelistDialog2" timestamp="1605663390905">
+    <state x="92" y="0" key="CommitChangelistDialog2" timestamp="1605664715496">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="92" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1605663390905" />
+    <state x="92" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1605664715496" />
     <state x="575" y="311" key="Github.ShareDialog" timestamp="1605530279818">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -85,9 +92,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="327" y="0" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1605530287077" />
-    <state x="261" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605663393452">
+    <state x="261" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605664717808">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="261" y="96" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605663393452" />
+    <state x="261" y="96" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605664717808" />
   </component>
 </project>
