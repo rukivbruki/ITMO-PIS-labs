@@ -1,5 +1,5 @@
-/lab2/task1/node_modules
-/lab2/task2/node_modules
+/Task4/app-mongo/node_modules
+/Task4/app-clastering/node_modules
 
 # dependencies
 /node_modules

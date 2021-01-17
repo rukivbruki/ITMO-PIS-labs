@@ -1,0 +1,33 @@
+pipeline {
+    agent {
+        docker {
+            image 'python:3.8.0'
+            args '-u root:root -p 8000:8000'
+        }
+    }
+
+    stages {
+        stage('Git') {
+            steps {
+                // checkout([$class: 'GitSCM', branches: [[name: '*/main']],
+                // doGenerateSubmoduleConfigurations: false, extensions: [],
+                // submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/Nitvex/is-labs.git']]
+                // ])
+                git branch: 'master', url: 'https://github.com/Nitvex/is-labs.git'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'python --version'
+                sh 'python -m venv env'
+                sh 'python -c "import this"'
+                sh '. env/bin/activate'
+                sh 'pip install --upgrade pip'
+                sh 'pip install pytest'
+                sh 'pip install -r Task6/identidock/requirements.txt'
+                sh 'cd Task6/identidock/app'
+                sh 'pytest'
+            }
+        }
+    }
+}

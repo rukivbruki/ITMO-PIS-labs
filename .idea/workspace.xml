@@ -1,9 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48cf1304-3e88-423f-a406-555eb08b664d" name="Default Changelist" comment="">
+    <list default="true" id="48cf1304-3e88-423f-a406-555eb08b664d" name="Default Changelist" comment="experiment">
+      <change afterPath="$PROJECT_DIR$/Task4/app-clastering/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4/app-clastering/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4/app-clastering/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4/app-clastering/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4/app-clastering/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4/app-clastering/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4/app-clastering/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4/app-clastering/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4/app-mongo/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4/app-mongo/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4/app-mongo/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4/app-mongo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4/app-mongo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task4/app-mongo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/identidock/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/identidock/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/identidock/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/identidock/app/identidock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/identidock/app/test_identidock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/identidock/cmd.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/identidock/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/identidock/jenkins.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task6/identidock/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task2/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task2/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/example.db" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/example.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task1/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task1/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task1/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task1/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task1/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task1/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task1/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task2/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task2/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task2/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task2/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task2/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task2/nginx.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task2/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task1/image-dist/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/avatar-generator/image-dist/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task1/image-dist/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/avatar-generator/image-dist/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task1/image-dist/identidock/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/avatar-generator/image-dist/identidock/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task1/image-dist/identidock/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/avatar-generator/image-dist/identidock/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task1/image-dist/identidock/app/identidock.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/avatar-generator/image-dist/identidock/app/identidock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task1/image-dist/identidock/app/templates/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/avatar-generator/image-dist/identidock/app/templates/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task1/image-dist/identidock/cmd.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/avatar-generator/image-dist/identidock/cmd.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task1/image-dist/identidock/docker-compose.prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/avatar-generator/image-dist/identidock/docker-compose.prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task1/image-dist/identidock/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/avatar-generator/image-dist/identidock/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task1/image-dist/identidock/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/avatar-generator/image-dist/identidock/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task1/image-dist/image-size/Dockerfile_big" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/avatar-generator/image-dist/image-size/Dockerfile_big" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task1/image-dist/image-size/Dockerfile_small" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/avatar-generator/image-dist/image-size/Dockerfile_small" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/web-dictionary/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task2/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/web-dictionary/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task2/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/web-dictionary/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task2/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/web-dictionary/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/web-dictionary/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/web-dictionary/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task2/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/web-dictionary/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task2/public/sc.js" beforeDir="false" afterPath="$PROJECT_DIR$/Task5/web-dictionary/public/sc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/Portfolio.lektorproject" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/Portfolio.lektorproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/assets/static/common-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/assets/static/common-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/assets/static/elements-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/assets/static/elements-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/assets/static/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/assets/static/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/assets/static/undraw_pcsocial_16rw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/assets/static/undraw_pcsocial_16rw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/assets/static/undraw_smiley_face_lmgm.png" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/assets/static/undraw_smiley_face_lmgm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/assets/static/undraw_smiley_face_lmgm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/assets/static/undraw_smiley_face_lmgm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/assets/static/undraw_social_networking_nqk4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/assets/static/undraw_social_networking_nqk4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/assets/static/undraw_social_sharing_ibwq.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/assets/static/undraw_social_sharing_ibwq.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/assets/static/undraw_tweetstorm_49e8.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/assets/static/undraw_tweetstorm_49e8.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/build/.lektor/buildstate" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/build/.lektor/buildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/build/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/build/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/build/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/build/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/build/static/common-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/build/static/common-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/build/static/elements-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/build/static/elements-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/build/static/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/build/static/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/build/static/undraw_pcsocial_16rw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/build/static/undraw_pcsocial_16rw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/build/static/undraw_smiley_face_lmgm.png" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/build/static/undraw_smiley_face_lmgm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/build/static/undraw_smiley_face_lmgm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/build/static/undraw_smiley_face_lmgm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/build/static/undraw_social_networking_nqk4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/build/static/undraw_social_networking_nqk4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/build/static/undraw_social_sharing_ibwq.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/build/static/undraw_social_sharing_ibwq.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/build/static/undraw_tweetstorm_49e8.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/build/static/undraw_tweetstorm_49e8.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/content/about/contents.lr" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/content/about/contents.lr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/content/contents.lr" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/content/contents.lr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/content/projects/contents.lr" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/content/projects/contents.lr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/models/page.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/models/page.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/templates/macros/pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/templates/macros/pagination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/Portfolio/templates/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/Portfolio/templates/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/common-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/common-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/elements-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/elements-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/undraw_pcsocial_16rw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/undraw_pcsocial_16rw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/undraw_smiley_face_lmgm.png" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/undraw_smiley_face_lmgm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/undraw_smiley_face_lmgm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/undraw_smiley_face_lmgm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/undraw_social_networking_nqk4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/undraw_social_networking_nqk4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/undraw_social_sharing_ibwq.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/undraw_social_sharing_ibwq.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/undraw_tweetstorm_49e8.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/undraw_tweetstorm_49e8.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,17 +120,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kN9Ptx6Ukr5fU1XedlvLGMX7YS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../is-labs-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -52,7 +161,10 @@
       <option name="presentableId" value="Default" />
       <updated>1605530160873</updated>
       <workItem from="1605530161922" duration="2155000" />
-      <workItem from="1605651545558" duration="5353000" />
+      <workItem from="1605651545558" duration="6365000" />
+      <workItem from="1605746141090" duration="567000" />
+      <workItem from="1607937295537" duration="328000" />
+      <workItem from="1610891762491" duration="2926000" />
     </task>
     <task id="LOCAL-00001" summary="experiment">
       <created>1605653072277</created>
@@ -89,36 +201,22 @@
       <option name="project" value="LOCAL" />
       <updated>1605666851357</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="experiment">
+      <created>1605669634077</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605669634077</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="experiment" />
     <option name="LAST_COMMIT_MESSAGE" value="experiment" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="350" y="206" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605530244924">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="350" y="206" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1605530244924" />
-    <state x="92" y="0" key="CommitChangelistDialog2" timestamp="1605666850299">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="92" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1605666850299" />
-    <state x="575" y="311" key="Github.ShareDialog" timestamp="1605530279818">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="575" y="311" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1605530279818" />
-    <state x="327" y="0" key="Github.UntrackedFilesDialog" timestamp="1605530287077">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="327" y="0" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1605530287077" />
-    <state x="261" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605666852620">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="261" y="96" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605666852620" />
   </component>
 </project>
