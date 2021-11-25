@@ -16,7 +16,7 @@
 #
 #CMD ["sh", "/cmd.sh"]
 
-FROM python:3.9
+FROM python:3.10.0b2
 
 RUN groupadd -r uwsgi && useradd -r -g uwsgi uwsgi
 
