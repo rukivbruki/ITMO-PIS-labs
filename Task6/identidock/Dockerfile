@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.10.0b2
 
 WORKDIR /app
 RUN groupadd -r uwsgi && useradd -r -g uwsgi uwsgi
